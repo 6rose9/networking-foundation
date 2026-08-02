@@ -1,0 +1,122 @@
+Network ? 
+    => Computer 
+    => Phone
+    => Printer
+    => Server
+    => Router
+        Communicate / Sharing
+
+            Resource
+                => File / Phone
+                => Internet Connection
+                => Printer
+                => Website
+                => Database
+                => Voice / Video Call
+
+-------------------------------------------------------
+
+Network
+    Internet => Router (wifi router)
+    Router => Laptop
+           => Phone
+           => TV
+
+(local network / LAN)
+
+=> Network Type ? 
+1. PAN (Personal Area Network)      - Phone bluetooth Earphone
+2. LAN (Local Area Network)         - Home / School / Office
+3. WLAN (Wireless Area Network)     - Wifi LAN
+4. MAN (Metropolitan Area Network)  - One city network
+5. WAN (Wide Area Network)          - Wide LAN connection
+6. VPN (Virtual Private Network)    - Public Internet
+
+-------------------------------------------------------
+
+=> Internet & Intranet
+
+Internet = World Wide Network ( Network to Network)
+Intranet = Company / Organization ( Private Network)
+
+-------------------------------------------------------
+
+=> Internet & World Wide Web
+
+Internet x Web
+ 
+  Internet ( World Wide Network - Infrastructure)
+
+  On the internet -> Web
+                    Email
+                    File Trasfer
+                    Online Game
+                    Voice / Video Call
+                    Messaging
+                    VPN
+
+  World Web Wide -> Just Service on the internet using http / https application layers relied on tcp transport protocals
+
+Common HTTP methods
+GET – Retrieve data.
+POST – Send data to the server.
+PUT – Update existing data.
+DELETE – Remove data.
+PATCH – Partially update data.
+
+HTTP status codes
+200 OK – Request succeeded.
+301 Moved Permanently – Resource has moved.
+404 Not Found – The requested page doesn't exist.
+500 Internal Server Error – The server encountered an error.
+
+HTTP vs. HTTPS
+HTTP sends data in plain text and is not encrypted.
+HTTPS (Hypertext Transfer Protocol Secure) encrypts the communication using TLS/SSL, making it much more secure. Modern websites almost always use HTTPS to protect passwords, payment information, and other sensitive data.
+
+Application Layer
+    HTTP
+      │
+Transport Layer
+    TCP - Transmission Control Protocol
+      │
+Internet Layer
+     IP
+      │
+Link Layer
+ Ethernet / Wi-Fi
+
+-------------------------------------------------------
+
+=> Client & Server
+
+ Client 
+    request data or Service
+    application / device
+    
+    eg. Chrome, Firebox
+        Android / IOS application
+        API, Postman, Bruno, crul
+        Reactjs Web Application
+        Backend Application
+
+    
+ Server
+    Client Request
+    Process
+    Response
+    Application / Computer
+
+    Detail Process
+     1. Request
+     2. Input Validation
+     3. Authentication / Authorization
+     4. Business logic
+     5. Database query
+     6. Response
+
+ Application
+    Client / Server
+
+    Node.js API > Reactjs App       (Server)
+    Node.js API > Payemnt API       (Client)

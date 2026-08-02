@@ -1,0 +1,40 @@
+=> Request Response Flow
+
+https://jsonplaceholder.typicode.com/posts
+
+1. Browser send URL (Uniform Resourse Locator)
+2. DNS (Domain Name Service) IP Address
+3. Destrination IP (Network Connection Setup) TCP (transmission control protocal)
+4. HTTPS (Hypertext transfer protocal secure)
+5. HTTP Request
+6. Server Request process
+7. HTTP Response
+8. Show in Browser or use in javascript
+
+Browser -> DNS
+DNS -> Browser
+Browser -> Web Server using TCP handshake ( similar phone call )
+
+### TCP Service (3 way handshakes)
+
+Browser -> Server
+1. SYN = calling
+
+Server -> Browser
+2. SYN-ACK = answing , question
+
+Browser -> Server
+3. ACK = start talking
+
+### TLS (Transport Layer Service)
+Based on ssl (secure sockets layer)
+
+1. client hello (tls version 1.1) cipher suite, AES / RSA/ GCM, Random number, session id
+2. server hello
+3. server certificate
+4. client key exchange
+5. change ciphper specificateion
+6. finished (secure connection)
+
+AES = Advanced Encryption Standard
+RSA = Rivest Shamir Adleman
